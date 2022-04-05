@@ -24,7 +24,7 @@ int main() {
 		cout << file_name << '\n';
 		Entry entry(file_name, codigos);
 		auto matches = entry.get_matches();
-		cout << matches.size() << '\n';
+		cout << entry.get_total_matches() << '\n';
 		cout << entry.get_text() << '\n';
 		
   }
