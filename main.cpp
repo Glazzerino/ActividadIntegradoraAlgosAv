@@ -12,11 +12,13 @@ int main() {
   vector<string> transmisiones;
   fstream newFile;
   newFile.open("mcode.txt");
+	
   while(newFile >> x){
     codigos.push_back(x);    
   }
+	
   newFile.close();
-
+	
 	string file_name;
 	
 	for (int i=1; i<=3; i++) {
